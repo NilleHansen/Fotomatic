@@ -36,7 +36,7 @@ html {
 }
 
 .content {
-  padding: 2.5rem 0;
+
 }
 
 /* Header */
@@ -237,6 +237,10 @@ header .mobile {
   background-color: white;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
@@ -259,6 +263,9 @@ header .mobile {
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
+    font-size: 1.125rem;
+    line-height: normal;
+    font-weight: normal;
 
   }
 
@@ -275,7 +282,8 @@ header .mobile {
 
   }
 
-  .feature {
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
 
   }
 }
